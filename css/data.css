@@ -25,7 +25,20 @@ nav{
    left: 1;
   }
 
-
+ 
+  .div-footer{  background: #111;
+    padding: 15px 23px;
+    color: #fff;
+    text-align: center;
+  }
+  .div-footer span a{
+    color: crimson;
+    text-decoration: none;
+  }
+  .div-footer span a:hover{
+    text-decoration: underline;
+  }
+  
 nav .wrapper{
   position: relative;
   max-width: 1300px;
@@ -323,19 +336,7 @@ color: sandybrown;
 .symbol{
     font-size: 20px;
 }
-footer{
-  background: #111;
-  padding: 15px 23px;
-  color: #fff;
-  text-align: center;
-}
-footer span a{
-  color: crimson;
-  text-decoration: none;
-}
-footer span a:hover{
-  text-decoration: underline;
-}
+
 #fofo{
   
   padding-top: 130px ;
@@ -350,12 +351,9 @@ color: rgb(255, 255, 255);
 }
 #editor{
   width: 66%;
-margin: 15px auto 0;
-font-style: italic;
-font-size: 1.25em;
-font-weight: 100;
-line-height: 1.38;
-text-align: right;
+position: relative;
+left: 80%;
+font-size:20px;
 color: rgb(147, 147, 147);
 }
 #quote{
